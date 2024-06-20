@@ -28,7 +28,7 @@
 
 
             <li class="nav-item">
-                <a class="nav-link text-white " href="./tables.html">
+                <a class="nav-link text-white " href="{{ route('pegawai.index') }}">
 
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="fas fa-users fa-fw"></i>
@@ -44,7 +44,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link text-white " href="./sign-up.html">
+                <a class="nav-link text-white " href="{{ route('logout') }}">
 
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="fas fa-sign-out-alt fa-fw"></i>
